@@ -14,7 +14,7 @@
   <h3 align="center">PowerShell Hub</h3>
 
   <p align="center">
-    A hub for all you powershell scripts!
+    A selfhosted hub for all you powershell scripts!
     <br />  
     <br /> 
     <a href="https://github.com/bratz89/PowerShell-Hub/issues">Report Bug</a>
@@ -24,12 +24,13 @@
 </div>
  
 ## About The Project
-The PowerShell Web Client is a user-friendly app that simplifies PowerShell management and code execution in a web-based interface. With this tool, you can effortlessly run PowerShell code, create scripts using built-in highlighter, and instantly view output. The app also offers parameterization for easy script customization. Plus, you can quickly download your scripts for convenient sharing and storage.  
+The PowerShell Hub is a user-friendly app that simplifies PowerShell management and code execution in a web-based interface. With this tool, you can effortlessly run PowerShell code, create scripts using built-in highlighter, and instantly view output. The app also offers parameterization for easy script customization. Plus, you can quickly download your scripts for convenient sharing and storage.  
    <br />
    <br /> 
 [![PSH][product-screenshot]](https://github.com/Bratz89/PowerShell-Hub/blob/main/images/ss.png) 
   <br />
   <br />
+Quickly change scripts parameters:
 [![PSH][product-screenshot1]](https://github.com/Bratz89/PowerShell-Hub/blob/main/images/ss1.png) 
   <br />
   <br />
@@ -65,8 +66,7 @@ The PowerShell Web Client is a user-friendly app that simplifies PowerShell mana
    ```
 5. Install NPM packages for server
    ```sh
-   cd.. 
-   cd server
+   npm install
    ```
 6. Start the client and server
    ```sh
@@ -74,9 +74,9 @@ The PowerShell Web Client is a user-friendly app that simplifies PowerShell mana
    ```
  
 ### Customization 
-1. In the client and server .env files you can change the API if needed
+1. In the client and server .env files you can change the API key if needed
  
-2. In server .env file you can change the API endpoint if you want to host a scriptserver
+2. In server .env file you can change the API endpoint if you want to host a scriptserver. (Exercise caution, as scripts can be executed on the server by anyone with access. With Default settings scripts can only be run localy)
    ```sh
     REACT_APP_API_URL=http://your.ip.here:3001 / or https://yourwebsitehere.com
    ```
@@ -90,7 +90,8 @@ The PowerShell Web Client is a user-friendly app that simplifies PowerShell mana
 
 
 ## Roadmap
-- [ ] Add taskmanager function
+- [ ] Taskmanager function
+- [ ] Authentication
 
 See the [open issues](https://github.com/bratz89/PowerShell-Hub/issues) for a full list of proposed features (and known issues). 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
