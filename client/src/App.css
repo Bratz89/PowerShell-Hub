@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+html,
+body,
+#root,
+.wrapper {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFAF0;
+  font-family: 'Itim';
+  background-color: #282c34;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+  padding: 10px;
+}
+
+.TileContainer {
+  margin-bottom: 5px;
+}
+
+.Tile {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.TileEditor {
+  border-radius: 10px;
+  background-color: #26282e;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.textarea {
+  font-family: 'Itim';
+}
+
+.SaveScriptButton {
+  display: flex;
+  transition-duration: 400ms;
+  padding: 5px;
+  height: 20px;
+
+  border-radius: 10px;
+  background-color: #1b1d22;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  width: 75px;
+  justify-content: center;
+}
+
+.SaveScriptButton:hover {
+  transition-duration: 400ms;
+  color: #605f5e;
+}
+
+.IconButtonsScript {
+  transition-duration: 400ms;
+  font-size: 30px;
+  min-width: 28px;
+  cursor: pointer;
+}
+
+.IconButtonsScript:hover {
+  transition-duration: 400ms;
+  color: #605f5e;
+}
+
+.dummy {
+  color: #c45d34;
+  color: #a1cb6a;
+  color: #f1c241;
+  color: #d8d3c4;
+  color: #20202c;
+}
+
+.ScriptButtonsGroup2 {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  margin-top: 5px;
+  padding-right: 5px;
+}
+
+.ScriptInputField1 {
+  background-color: #1b1d22;
+  border-style: solirgba(27, 29, 34, 0);
+  font-size: 18px;
+  color: white;
+  border-style: hidden;
+  padding: 10px;
+  padding-left: 5px;
+  margin-right: auto;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+input {
+  font-family: 'Itim';
+}
+
+
+.TileMainTitleContainer {
+  border-radius: 10px;
+  background-color: #1b1d22;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+select {
+  font-family: 'Itim';
+  border-style: none;
+  border: 0px;
+  outline: 0px;
+}
+
+select:focus {
+  border-style: none;
+}
+
+select option {
+  margin: 40px;
+  background: #1b1d22;
+  border-style: none;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.TitleButton {
+  display: flex;
+  transition-duration: 400ms;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1b1d22;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  justify-content: left;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+
+  margin-bottom: 5px;
+  cursor: 'pointer';
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 10px;
+}
+
+.TitleButton:last-child {
+  margin-right: 0;
+}
+
+.TitleButton:hover {
+  transition-duration: 400ms;
+  color: #000000;
+}
+
+.TitleButton-active {
+  background-color: #404450;
+}
+
+.CategoryContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.CreateInputField {
+  display: flex;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #1b1d22;
+  width: 300px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ParamContent {
+  position: absolute;
+  left: 30%;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 10px;
+
+}
