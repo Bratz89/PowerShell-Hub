@@ -12,6 +12,9 @@
   </a>
 
   <h3 align="center">PowerShell Hub</h3>
+    <a href="https://github.com/bratz89/PowerShell-Hub">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
   <p align="center">
     A selfhosted hub for all you powershell scripts!
